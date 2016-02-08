@@ -64,4 +64,6 @@ int main()
     cout << "HTTPS port: " << GetPort("HTTPS") << endl;
 
     constexpr bool b = std::is_enum<SomeNamespace::Ports>::value;
+
+    return 0;
 }
