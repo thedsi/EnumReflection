@@ -91,8 +91,7 @@ EnumReflector::EnumReflector(const int* vals, int count, const char* name, const
 
 EnumReflector::~EnumReflector()
 {
-    if(_data)
-        delete _data;
+    delete _data;
 }
 
 int EnumReflector::Count() const
